@@ -7,3 +7,5 @@ dist/
 *.log
 credentials.json
 service-account*.json
+
+.vercel
