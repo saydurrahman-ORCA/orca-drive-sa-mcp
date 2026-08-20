@@ -3,5 +3,9 @@
     "api/index.ts": {
       "maxDuration": 60
     }
-  }
+  },
+  "rewrites": [
+    { "source": "/", "destination": "/api" },
+    { "source": "/(.*)", "destination": "/api" }
+  ]
 }
